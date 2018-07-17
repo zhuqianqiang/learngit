@@ -2,8 +2,10 @@ spring:
   application:
     name: product
   datasource:
-    奥术大师大所大所多
-    url: 啊实打实大大说
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
 eureka:
