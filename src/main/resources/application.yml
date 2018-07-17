@@ -1,11 +1,15 @@
 spring:
   application:
-    n巴巴爸爸
- sdasdasdasdasdasdasdasdadaasddas
-    啊啊啊啊
+    name: product
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
 eureka:
-  client:sdadaasdasdadasd
+  client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-adasawdqdqdq
